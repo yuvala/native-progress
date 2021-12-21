@@ -1,0 +1,14 @@
+#progress {
+    border: 1px red solid;
+    background-color: gray;
+    margin: 10%;
+}
+#bar,
+#barB {
+    height: 30px;
+    width: 1%;
+    background-color: blue;
+}
+#barB {
+    transition: width 2s;
+}
