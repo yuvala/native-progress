@@ -4,12 +4,18 @@
 ## inside trasition
 
  
-``Use `code` in your Markdown file.``
+to play with tranistion effect
+go to **#barB'** selector in main.css file. 
+
+add:
+ ``
+ transition-timing-function:  linear;
+``
+
+into :
  ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+#barB {
+    transition: width 2s;
 }
 ```
  
